@@ -76,7 +76,6 @@ namespace JogoForca
             }
             else
             {
-
                Console.WriteLine();
                Console.WriteLine();
                Console.Write("Digite uma letra: ");
