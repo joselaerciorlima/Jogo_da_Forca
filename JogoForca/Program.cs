@@ -95,6 +95,11 @@ namespace JogoForca
                   }
                }
 
+               if (acertou == true)
+               {
+                  premioTotal += double.Parse(itemRoleta);
+               }
+
                //Validando a rodada
                if (acertou == false)
                   qtdeErros++;
@@ -103,13 +108,13 @@ namespace JogoForca
             if (qtdeErros >= limiteErros)
             {
                Console.Clear();
-               Console.WriteLine("ERROOOOOU! VOCÊ SENTOU NA CABEÇA. A palavra sorteada era {0}.", palavraSorteada.ToUpper());
+               Console.WriteLine("ERROOOOOU! VOCÊ SENTOU NA CABEÇA. A palavra sorteada era {0}. Você não ganha nada.", palavraSorteada.ToUpper());
                sairJogo = true;
             }
             if (qtdeLetras == qtdeAcertos)
             {
                Console.Clear();
-               Console.WriteLine("O MISERÁVEL É UM GÊNIO!! A palavra era {0}", palavraSorteada.ToUpper());
+               Console.WriteLine("O MISERÁVEL É UM GÊNIO!! A palavra era {0}. Você ganhou {1}.", palavraSorteada.ToUpper(),premioTotal.ToString("C"));
                sairJogo = true;
             }
          }

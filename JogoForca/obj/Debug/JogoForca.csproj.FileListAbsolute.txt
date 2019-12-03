@@ -5,3 +5,10 @@ C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj
 C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.csproj.CoreCompileInputs.cache
 C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.exe
 C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.pdb
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\bin\Debug\JogoForca.exe.config
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\bin\Debug\JogoForca.exe
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\bin\Debug\JogoForca.pdb
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\obj\Debug\JogoForca.csprojAssemblyReference.cache
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\obj\Debug\JogoForca.csproj.CoreCompileInputs.cache
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\obj\Debug\JogoForca.exe
+C:\Users\jose.lrlima2\OneDrive\ProjetosTI\Rodrigo\Desafio 6\JogoForca\JogoForca\obj\Debug\JogoForca.pdb
