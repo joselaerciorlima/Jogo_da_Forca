@@ -1,0 +1,7 @@
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\bin\Debug\JogoForca.exe.config
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\bin\Debug\JogoForca.exe
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\bin\Debug\JogoForca.pdb
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.csprojAssemblyReference.cache
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.csproj.CoreCompileInputs.cache
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.exe
+C:\Users\rodrigo.gsantana1\Desktop\Aula de Programação\JogoForca\JogoForca\obj\Debug\JogoForca.pdb
