@@ -24,12 +24,9 @@ namespace JogoForca
 
          // Variáveis de controle do jogo.
          const int limiteErros = 7;
-         int qtdErros = 0;
+         int qtdeErros = 0, qtdeLetras = 0, qtdeAcertos = 0;
          char letraEscolhida;
-         bool sairJogo = false;
-         bool acertou = false;
-         int qtdeLetras = 0;
-         int qtdeAcertos = 0;
+         bool sairJogo = false, acertou = false;
          string itemRoleta = "";
          double premioTotal = 0;
 
@@ -56,7 +53,7 @@ namespace JogoForca
             Console.Clear();
             Console.WriteLine("### VOCÊ ESTÁ JOGANDO RODA RODA SENAC DEV ###");
             Console.WriteLine();
-            Console.WriteLine("Erros: {0} de {1}", qtdErros, limiteErros);
+            Console.WriteLine("Erros: {0} de {1}", qtdeErros, limiteErros);
             Console.WriteLine("A palavra sorteada possui: {0} letras.", qtdeLetras);
             Console.WriteLine();
             Console.WriteLine("Valor acumulado: " + premioTotal);
@@ -74,7 +71,7 @@ namespace JogoForca
             }
             else if (itemRoleta == "Passou a vez")
             {
-               qtdErros++;
+               qtdeErros++;
                Console.ReadKey();
             }
             else
@@ -101,20 +98,19 @@ namespace JogoForca
 
                //Validando a rodada
                if (acertou == false)
-                  qtdErros++;
+                  qtdeErros++;
             }
 
-            if (qtdErros >= limiteErros)
+            if (qtdeErros >= limiteErros)
             {
                Console.Clear();
-               Console.WriteLine("ERROOOU! QUE PENA, VOCÊ PERDEU. A palavra sorteada era {0}.", palavraSorteada.ToUpper());
+               Console.WriteLine("ERROOOOOU! VOCÊ SENTOU NA CABEÇA. A palavra sorteada era {0}.", palavraSorteada.ToUpper());
                sairJogo = true;
             }
-
             if (qtdeLetras == qtdeAcertos)
             {
                Console.Clear();
-               Console.WriteLine("PARABÉNS, VOCÊ GANHOU! Pois conseguiu descobrir a palavra {0}.", palavraSorteada.ToUpper());
+               Console.WriteLine("O MISERÁVEL É UM GÊNIO!! A palavra era {0}", palavraSorteada.ToUpper());
                sairJogo = true;
             }
          }
